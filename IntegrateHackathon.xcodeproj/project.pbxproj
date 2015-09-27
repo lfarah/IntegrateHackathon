@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		127365DFBE7FF19F99A71165 /* Pods_IntegrateHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97B6A68E76B7B33B13ACC90 /* Pods_IntegrateHackathon.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C2126FCE1BB87CC500171FCB /* Cristo.png in Resources */ = {isa = PBXBuildFile; fileRef = C2126FCD1BB87CC500171FCB /* Cristo.png */; settings = {ASSET_TAGS = (); }; };
+		C2126FD01BB87E3B00171FCB /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2126FCF1BB87E3B00171FCB /* LoadingViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C2126FD21BB87E4100171FCB /* Loading2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2126FD11BB87E4100171FCB /* Loading2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C22070F51BB864670078A269 /* Configurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = C22070F41BB864670078A269 /* Configurations.plist */; settings = {ASSET_TAGS = (); }; };
 		C22071001BB8649F0078A269 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C22070F71BB8649F0078A269 /* MessageCell.m */; settings = {ASSET_TAGS = (); }; };
 		C22071011BB8649F0078A269 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22070F91BB8649F0078A269 /* MessagesViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -21,8 +23,6 @@
 		C220710C1BB86CEC0078A269 /* orangeHalfCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C220710B1BB86CEC0078A269 /* orangeHalfCircle.png */; settings = {ASSET_TAGS = (); }; };
 		C220710E1BB86E7D0078A269 /* blueHalfCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C220710D1BB86E7D0078A269 /* blueHalfCircle.png */; settings = {ASSET_TAGS = (); }; };
 		C22071101BB86EE30078A269 /* loadingPage.png in Resources */ = {isa = PBXBuildFile; fileRef = C220710F1BB86EE30078A269 /* loadingPage.png */; settings = {ASSET_TAGS = (); }; };
-		C22071131BB86F2B0078A269 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22071121BB86F2B0078A269 /* LoadingViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C22071161BB86F3A0078A269 /* LoadingViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C22071151BB86F3A0078A269 /* LoadingViewController2.m */; settings = {ASSET_TAGS = (); }; };
 		C22071181BB872700078A269 /* mapPersonalityPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = C22071171BB872700078A269 /* mapPersonalityPNG.png */; settings = {ASSET_TAGS = (); }; };
 		C220711A1BB872F80078A269 /* rio.png in Resources */ = {isa = PBXBuildFile; fileRef = C22071191BB872F80078A269 /* rio.png */; settings = {ASSET_TAGS = (); }; };
 		C26249E11BB7C6AF00FF8422 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26249E01BB7C6AF00FF8422 /* CountriesViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -49,6 +49,7 @@
 		C2910E9B1BB7FFF2006D84CB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2910E9A1BB7FFF2006D84CB /* ExtensionDelegate.swift */; };
 		C2910E9D1BB7FFF2006D84CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2910E9C1BB7FFF2006D84CB /* Assets.xcassets */; };
 		C2910EA11BB7FFF2006D84CB /* IntegrateHackathonWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C2910E871BB7FFF2006D84CB /* IntegrateHackathonWatch.app */; };
+		C2B5B4E31BB88A86004368BE /* descripton-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B5B4E21BB88A86004368BE /* descripton-1.png */; settings = {ASSET_TAGS = (); }; };
 		C2E7BB971BB779030088D563 /* BlendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7BB961BB779030088D563 /* BlendsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -112,6 +113,8 @@
 		995D31C28A6A573C3376C03A /* Pods-IntegrateHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrateHackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntegrateHackathon/Pods-IntegrateHackathon.release.xcconfig"; sourceTree = "<group>"; };
 		B97B6A68E76B7B33B13ACC90 /* Pods_IntegrateHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntegrateHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2126FCD1BB87CC500171FCB /* Cristo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cristo.png; sourceTree = "<group>"; };
+		C2126FCF1BB87E3B00171FCB /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		C2126FD11BB87E4100171FCB /* Loading2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loading2ViewController.swift; sourceTree = "<group>"; };
 		C22070F41BB864670078A269 /* Configurations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configurations.plist; sourceTree = "<group>"; };
 		C22070F61BB8649F0078A269 /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
 		C22070F71BB8649F0078A269 /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
@@ -129,10 +132,6 @@
 		C220710B1BB86CEC0078A269 /* orangeHalfCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeHalfCircle.png; sourceTree = "<group>"; };
 		C220710D1BB86E7D0078A269 /* blueHalfCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueHalfCircle.png; sourceTree = "<group>"; };
 		C220710F1BB86EE30078A269 /* loadingPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingPage.png; sourceTree = "<group>"; };
-		C22071111BB86F2B0078A269 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
-		C22071121BB86F2B0078A269 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
-		C22071141BB86F3A0078A269 /* LoadingViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController2.h; sourceTree = "<group>"; };
-		C22071151BB86F3A0078A269 /* LoadingViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController2.m; sourceTree = "<group>"; };
 		C22071171BB872700078A269 /* mapPersonalityPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapPersonalityPNG.png; sourceTree = "<group>"; };
 		C22071191BB872F80078A269 /* rio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rio.png; sourceTree = "<group>"; };
 		C26249E01BB7C6AF00FF8422 /* CountriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
@@ -167,6 +166,7 @@
 		C2910E9A1BB7FFF2006D84CB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		C2910E9C1BB7FFF2006D84CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2910E9E1BB7FFF2006D84CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2B5B4E21BB88A86004368BE /* descripton-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "descripton-1.png"; sourceTree = "<group>"; };
 		C2E7BB961BB779030088D563 /* BlendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlendsViewController.swift; sourceTree = "<group>"; };
 		C2E7BB981BB7BC830088D563 /* IntegrateHackathon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntegrateHackathon-Bridging-Header.h"; sourceTree = "<group>"; };
 		E58C8AC00F0874BD5D91BF76 /* Pods-IntegrateHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrateHackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntegrateHackathon/Pods-IntegrateHackathon.debug.xcconfig"; sourceTree = "<group>"; };
@@ -239,6 +239,7 @@
 				C2910E7F1BB7F6BD006D84CB /* people.json */,
 				C2910E7B1BB7F1BA006D84CB /* main.jpg */,
 				C2910E831BB7FE32006D84CB /* maindesign_960.png */,
+				C2B5B4E21BB88A86004368BE /* descripton-1.png */,
 				C22071051BB86B650078A269 /* screen2PNG.png */,
 				C22071071BB86B9C0078A269 /* mapButton.png */,
 				C22071091BB86BA50078A269 /* personalityButton.png */,
@@ -280,10 +281,6 @@
 				C26EDE9F1BB73EF900E7ABCD /* AppDelegate.swift */,
 				C26EDEA11BB73EF900E7ABCD /* ViewController.swift */,
 				C26EDEA31BB73EF900E7ABCD /* Main.storyboard */,
-				C22071111BB86F2B0078A269 /* LoadingViewController.h */,
-				C22071121BB86F2B0078A269 /* LoadingViewController.m */,
-				C22071141BB86F3A0078A269 /* LoadingViewController2.h */,
-				C22071151BB86F3A0078A269 /* LoadingViewController2.m */,
 				C2910E811BB7FA55006D84CB /* TableViewCell2.swift */,
 				C2910E7D1BB7F28C006D84CB /* UserViewController.swift */,
 				C26249E41BB7CBCC00FF8422 /* TableViewCell.swift */,
@@ -293,6 +290,8 @@
 				C26EDEA81BB73EF900E7ABCD /* LaunchScreen.storyboard */,
 				C26EDEAB1BB73EF900E7ABCD /* Info.plist */,
 				C22070F41BB864670078A269 /* Configurations.plist */,
+				C2126FCF1BB87E3B00171FCB /* LoadingViewController.swift */,
+				C2126FD11BB87E4100171FCB /* Loading2ViewController.swift */,
 			);
 			path = IntegrateHackathon;
 			sourceTree = "<group>";
@@ -489,6 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2910E841BB7FE32006D84CB /* maindesign_960.png in Resources */,
+				C2B5B4E31BB88A86004368BE /* descripton-1.png in Resources */,
 				C220711A1BB872F80078A269 /* rio.png in Resources */,
 				C26EDECE1BB7458A00E7ABCD /* test.html in Resources */,
 				C22071101BB86EE30078A269 /* loadingPage.png in Resources */,
@@ -598,12 +598,12 @@
 				C2910E7E1BB7F28C006D84CB /* UserViewController.swift in Sources */,
 				C2E7BB971BB779030088D563 /* BlendsViewController.swift in Sources */,
 				C26249E11BB7C6AF00FF8422 /* CountriesViewController.swift in Sources */,
-				C22071131BB86F2B0078A269 /* LoadingViewController.m in Sources */,
 				C26EDED01BB7502D00E7ABCD /* ServerHandling.swift in Sources */,
+				C2126FD21BB87E4100171FCB /* Loading2ViewController.swift in Sources */,
 				C22071031BB8649F0078A269 /* QuickStartUtils.m in Sources */,
-				C22071161BB86F3A0078A269 /* LoadingViewController2.m in Sources */,
 				C26249E51BB7CBCC00FF8422 /* TableViewCell.swift in Sources */,
 				C26EDEA21BB73EF900E7ABCD /* ViewController.swift in Sources */,
+				C2126FD01BB87E3B00171FCB /* LoadingViewController.swift in Sources */,
 				C22071021BB8649F0078A269 /* MessageTextView.m in Sources */,
 				C22071011BB8649F0078A269 /* MessagesViewController.m in Sources */,
 				C22071041BB8649F0078A269 /* UIColor+QuickStart.m in Sources */,
