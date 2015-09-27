@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script src="https://cdn.traitify.com/js/widgets/v1.js"></script>
+    <script src="https://cdn.traitify.com/patches/dev_mode.js"></script>
+  </head>
+  <body>
+    <div class="assessment"></div>
+    <script>
+      Traitify.setPublicKey("17nvgtl8vtvja296a1ctdthqk0"); // get this from developer.traitify.com
+      Traitify.setHost("https://api-sandbox.traitify.com");
+      Traitify.setEnvironment("development"); // this is the *magic*, auto-answers all but 4 slides
+      var assessmentId = "83545991-b7b3-4c46-a40e-4d194baa200f"; // create this server side and put the id here
+      Traitify.ui.load(assessmentId, ".assessment")
+      </script>
+  </body>
+</html>
