@@ -51,8 +51,19 @@ class ViewController: UIViewController {
       
       //        print(response)
       //        print(error)
+      
+      
     }
-    
+    navigationController?.setNavigationBarHidden(navigationController?.navigationBarHidden == false, animated: true) //or animated: false
+
+  }
+  
+  override func prefersStatusBarHidden() -> Bool {
+    return navigationController?.navigationBarHidden == true
+  }
+  
+  override func preferredStatusBarUpdateAnimation() -> UIStatusBarAnimation {
+    return UIStatusBarAnimation.Fade
   }
   
   func jsonify(jsonData: NSData)

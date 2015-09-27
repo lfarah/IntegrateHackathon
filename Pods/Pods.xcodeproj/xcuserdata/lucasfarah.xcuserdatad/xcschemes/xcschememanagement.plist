@@ -8,21 +8,109 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>CocoaAsyncSocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>CocoaLumberjack.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>MDMCoreData.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>MMX.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>MMXXMPPFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Mantle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>Pods-IntegrateHackathon.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>SlackTextViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>632CD7ECC3F6EF24C126D2B320568F2A</key>
+		<key>0628AAC486D30B6A499055346D2729EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9961E0D8D502856B1A96CEDA546D4193</key>
+		<key>22F34794CD09187B1F14F084CF0BD3A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3E3FB3D93788D046B9C6E500B452F810</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4720CA90C3D0E29A927679690B8E2D2B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5806E2FD8902A9031C4ED175F716A0B9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60C8EA7A471F53ADAC98978077A906D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6BE058B10FC0CE5D3818CF6F2397B22C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>86083087824B78D7C5AFED0849D34120</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C94492F71253CE060AF130D2CFFAACAF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

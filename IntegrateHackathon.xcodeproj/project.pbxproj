@@ -8,6 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		127365DFBE7FF19F99A71165 /* Pods_IntegrateHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97B6A68E76B7B33B13ACC90 /* Pods_IntegrateHackathon.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C2126FCE1BB87CC500171FCB /* Cristo.png in Resources */ = {isa = PBXBuildFile; fileRef = C2126FCD1BB87CC500171FCB /* Cristo.png */; settings = {ASSET_TAGS = (); }; };
+		C22070F51BB864670078A269 /* Configurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = C22070F41BB864670078A269 /* Configurations.plist */; settings = {ASSET_TAGS = (); }; };
+		C22071001BB8649F0078A269 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C22070F71BB8649F0078A269 /* MessageCell.m */; settings = {ASSET_TAGS = (); }; };
+		C22071011BB8649F0078A269 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22070F91BB8649F0078A269 /* MessagesViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C22071021BB8649F0078A269 /* MessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C22070FB1BB8649F0078A269 /* MessageTextView.m */; settings = {ASSET_TAGS = (); }; };
+		C22071031BB8649F0078A269 /* QuickStartUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C22070FD1BB8649F0078A269 /* QuickStartUtils.m */; settings = {ASSET_TAGS = (); }; };
+		C22071041BB8649F0078A269 /* UIColor+QuickStart.m in Sources */ = {isa = PBXBuildFile; fileRef = C22070FF1BB8649F0078A269 /* UIColor+QuickStart.m */; settings = {ASSET_TAGS = (); }; };
+		C22071061BB86B650078A269 /* screen2PNG.png in Resources */ = {isa = PBXBuildFile; fileRef = C22071051BB86B650078A269 /* screen2PNG.png */; settings = {ASSET_TAGS = (); }; };
+		C22071081BB86B9C0078A269 /* mapButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C22071071BB86B9C0078A269 /* mapButton.png */; settings = {ASSET_TAGS = (); }; };
+		C220710A1BB86BA50078A269 /* personalityButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C22071091BB86BA50078A269 /* personalityButton.png */; settings = {ASSET_TAGS = (); }; };
+		C220710C1BB86CEC0078A269 /* orangeHalfCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C220710B1BB86CEC0078A269 /* orangeHalfCircle.png */; settings = {ASSET_TAGS = (); }; };
+		C220710E1BB86E7D0078A269 /* blueHalfCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C220710D1BB86E7D0078A269 /* blueHalfCircle.png */; settings = {ASSET_TAGS = (); }; };
+		C22071101BB86EE30078A269 /* loadingPage.png in Resources */ = {isa = PBXBuildFile; fileRef = C220710F1BB86EE30078A269 /* loadingPage.png */; settings = {ASSET_TAGS = (); }; };
+		C22071131BB86F2B0078A269 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22071121BB86F2B0078A269 /* LoadingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C22071161BB86F3A0078A269 /* LoadingViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C22071151BB86F3A0078A269 /* LoadingViewController2.m */; settings = {ASSET_TAGS = (); }; };
+		C22071181BB872700078A269 /* mapPersonalityPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = C22071171BB872700078A269 /* mapPersonalityPNG.png */; settings = {ASSET_TAGS = (); }; };
+		C220711A1BB872F80078A269 /* rio.png in Resources */ = {isa = PBXBuildFile; fileRef = C22071191BB872F80078A269 /* rio.png */; settings = {ASSET_TAGS = (); }; };
+		C26249E11BB7C6AF00FF8422 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26249E01BB7C6AF00FF8422 /* CountriesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C26249E31BB7C78C00FF8422 /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = C26249E21BB7C78C00FF8422 /* places.json */; settings = {ASSET_TAGS = (); }; };
+		C26249E51BB7CBCC00FF8422 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26249E41BB7CBCC00FF8422 /* TableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		C26EDEA01BB73EF900E7ABCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26EDE9F1BB73EF900E7ABCD /* AppDelegate.swift */; };
 		C26EDEA21BB73EF900E7ABCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26EDEA11BB73EF900E7ABCD /* ViewController.swift */; };
 		C26EDEA51BB73EF900E7ABCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26EDEA31BB73EF900E7ABCD /* Main.storyboard */; };
@@ -17,6 +37,18 @@
 		C26EDEC01BB73EF900E7ABCD /* IntegrateHackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26EDEBF1BB73EF900E7ABCD /* IntegrateHackathonUITests.swift */; };
 		C26EDECE1BB7458A00E7ABCD /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = C26EDECD1BB7458A00E7ABCD /* test.html */; settings = {ASSET_TAGS = (); }; };
 		C26EDED01BB7502D00E7ABCD /* ServerHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26EDECF1BB7502D00E7ABCD /* ServerHandling.swift */; settings = {ASSET_TAGS = (); }; };
+		C2910E7C1BB7F1BA006D84CB /* main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2910E7B1BB7F1BA006D84CB /* main.jpg */; settings = {ASSET_TAGS = (); }; };
+		C2910E7E1BB7F28C006D84CB /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2910E7D1BB7F28C006D84CB /* UserViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C2910E801BB7F6BD006D84CB /* people.json in Resources */ = {isa = PBXBuildFile; fileRef = C2910E7F1BB7F6BD006D84CB /* people.json */; settings = {ASSET_TAGS = (); }; };
+		C2910E821BB7FA55006D84CB /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2910E811BB7FA55006D84CB /* TableViewCell2.swift */; settings = {ASSET_TAGS = (); }; };
+		C2910E841BB7FE32006D84CB /* maindesign_960.png in Resources */ = {isa = PBXBuildFile; fileRef = C2910E831BB7FE32006D84CB /* maindesign_960.png */; settings = {ASSET_TAGS = (); }; };
+		C2910E8B1BB7FFF2006D84CB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2910E891BB7FFF2006D84CB /* Interface.storyboard */; };
+		C2910E8D1BB7FFF2006D84CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2910E8C1BB7FFF2006D84CB /* Assets.xcassets */; };
+		C2910E941BB7FFF2006D84CB /* IntegrateHackathonWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C2910E931BB7FFF2006D84CB /* IntegrateHackathonWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2910E991BB7FFF2006D84CB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2910E981BB7FFF2006D84CB /* InterfaceController.swift */; };
+		C2910E9B1BB7FFF2006D84CB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2910E9A1BB7FFF2006D84CB /* ExtensionDelegate.swift */; };
+		C2910E9D1BB7FFF2006D84CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2910E9C1BB7FFF2006D84CB /* Assets.xcassets */; };
+		C2910EA11BB7FFF2006D84CB /* IntegrateHackathonWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C2910E871BB7FFF2006D84CB /* IntegrateHackathonWatch.app */; };
 		C2E7BB971BB779030088D563 /* BlendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7BB961BB779030088D563 /* BlendsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -35,12 +67,77 @@
 			remoteGlobalIDString = C26EDE9B1BB73EF900E7ABCD;
 			remoteInfo = IntegrateHackathon;
 		};
+		C2910E951BB7FFF2006D84CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26EDE941BB73EF900E7ABCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2910E921BB7FFF2006D84CB;
+			remoteInfo = "IntegrateHackathonWatch Extension";
+		};
+		C2910E9F1BB7FFF2006D84CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26EDE941BB73EF900E7ABCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2910E861BB7FFF2006D84CB;
+			remoteInfo = IntegrateHackathonWatch;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2910EA51BB7FFF2006D84CB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C2910E941BB7FFF2006D84CB /* IntegrateHackathonWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2910EA91BB7FFF2006D84CB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C2910EA11BB7FFF2006D84CB /* IntegrateHackathonWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		995D31C28A6A573C3376C03A /* Pods-IntegrateHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrateHackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntegrateHackathon/Pods-IntegrateHackathon.release.xcconfig"; sourceTree = "<group>"; };
 		B97B6A68E76B7B33B13ACC90 /* Pods_IntegrateHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntegrateHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C20373C51BB7513A008917F1 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		C2126FCD1BB87CC500171FCB /* Cristo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cristo.png; sourceTree = "<group>"; };
+		C22070F41BB864670078A269 /* Configurations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configurations.plist; sourceTree = "<group>"; };
+		C22070F61BB8649F0078A269 /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		C22070F71BB8649F0078A269 /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		C22070F81BB8649F0078A269 /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		C22070F91BB8649F0078A269 /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		C22070FA1BB8649F0078A269 /* MessageTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTextView.h; sourceTree = "<group>"; };
+		C22070FB1BB8649F0078A269 /* MessageTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTextView.m; sourceTree = "<group>"; };
+		C22070FC1BB8649F0078A269 /* QuickStartUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickStartUtils.h; sourceTree = "<group>"; };
+		C22070FD1BB8649F0078A269 /* QuickStartUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickStartUtils.m; sourceTree = "<group>"; };
+		C22070FE1BB8649F0078A269 /* UIColor+QuickStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+QuickStart.h"; sourceTree = "<group>"; };
+		C22070FF1BB8649F0078A269 /* UIColor+QuickStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QuickStart.m"; sourceTree = "<group>"; };
+		C22071051BB86B650078A269 /* screen2PNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2PNG.png; sourceTree = "<group>"; };
+		C22071071BB86B9C0078A269 /* mapButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapButton.png; sourceTree = "<group>"; };
+		C22071091BB86BA50078A269 /* personalityButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personalityButton.png; sourceTree = "<group>"; };
+		C220710B1BB86CEC0078A269 /* orangeHalfCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeHalfCircle.png; sourceTree = "<group>"; };
+		C220710D1BB86E7D0078A269 /* blueHalfCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueHalfCircle.png; sourceTree = "<group>"; };
+		C220710F1BB86EE30078A269 /* loadingPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingPage.png; sourceTree = "<group>"; };
+		C22071111BB86F2B0078A269 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		C22071121BB86F2B0078A269 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		C22071141BB86F3A0078A269 /* LoadingViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController2.h; sourceTree = "<group>"; };
+		C22071151BB86F3A0078A269 /* LoadingViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController2.m; sourceTree = "<group>"; };
+		C22071171BB872700078A269 /* mapPersonalityPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapPersonalityPNG.png; sourceTree = "<group>"; };
+		C22071191BB872F80078A269 /* rio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rio.png; sourceTree = "<group>"; };
+		C26249E01BB7C6AF00FF8422 /* CountriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		C26249E21BB7C78C00FF8422 /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
+		C26249E41BB7CBCC00FF8422 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		C26EDE9C1BB73EF900E7ABCD /* IntegrateHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegrateHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26EDE9F1BB73EF900E7ABCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C26EDEA11BB73EF900E7ABCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +153,22 @@
 		C26EDEC11BB73EF900E7ABCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C26EDECD1BB7458A00E7ABCD /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 		C26EDECF1BB7502D00E7ABCD /* ServerHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerHandling.swift; sourceTree = "<group>"; };
+		C2910E7B1BB7F1BA006D84CB /* main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main.jpg; sourceTree = "<group>"; };
+		C2910E7D1BB7F28C006D84CB /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		C2910E7F1BB7F6BD006D84CB /* people.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = people.json; sourceTree = "<group>"; };
+		C2910E811BB7FA55006D84CB /* TableViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		C2910E831BB7FE32006D84CB /* maindesign_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maindesign_960.png; sourceTree = "<group>"; };
+		C2910E871BB7FFF2006D84CB /* IntegrateHackathonWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegrateHackathonWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2910E8A1BB7FFF2006D84CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C2910E8C1BB7FFF2006D84CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2910E8E1BB7FFF2006D84CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2910E931BB7FFF2006D84CB /* IntegrateHackathonWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IntegrateHackathonWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2910E981BB7FFF2006D84CB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C2910E9A1BB7FFF2006D84CB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C2910E9C1BB7FFF2006D84CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2910E9E1BB7FFF2006D84CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2E7BB961BB779030088D563 /* BlendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlendsViewController.swift; sourceTree = "<group>"; };
+		C2E7BB981BB7BC830088D563 /* IntegrateHackathon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntegrateHackathon-Bridging-Header.h"; sourceTree = "<group>"; };
 		E58C8AC00F0874BD5D91BF76 /* Pods-IntegrateHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrateHackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntegrateHackathon/Pods-IntegrateHackathon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +189,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C26EDEB81BB73EF900E7ABCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2910E901BB7FFF2006D84CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -106,13 +225,38 @@
 		C26EDE931BB73EF900E7ABCD = {
 			isa = PBXGroup;
 			children = (
-				C20373C51BB7513A008917F1 /* MyPlayground.playground */,
+				C22070F61BB8649F0078A269 /* MessageCell.h */,
+				C22070F71BB8649F0078A269 /* MessageCell.m */,
+				C22070F81BB8649F0078A269 /* MessagesViewController.h */,
+				C22070F91BB8649F0078A269 /* MessagesViewController.m */,
+				C22070FA1BB8649F0078A269 /* MessageTextView.h */,
+				C22070FB1BB8649F0078A269 /* MessageTextView.m */,
+				C22070FC1BB8649F0078A269 /* QuickStartUtils.h */,
+				C22070FD1BB8649F0078A269 /* QuickStartUtils.m */,
+				C22070FE1BB8649F0078A269 /* UIColor+QuickStart.h */,
+				C22070FF1BB8649F0078A269 /* UIColor+QuickStart.m */,
+				C26249E21BB7C78C00FF8422 /* places.json */,
+				C2910E7F1BB7F6BD006D84CB /* people.json */,
+				C2910E7B1BB7F1BA006D84CB /* main.jpg */,
+				C2910E831BB7FE32006D84CB /* maindesign_960.png */,
+				C22071051BB86B650078A269 /* screen2PNG.png */,
+				C22071071BB86B9C0078A269 /* mapButton.png */,
+				C22071091BB86BA50078A269 /* personalityButton.png */,
+				C220710B1BB86CEC0078A269 /* orangeHalfCircle.png */,
+				C220710D1BB86E7D0078A269 /* blueHalfCircle.png */,
+				C220710F1BB86EE30078A269 /* loadingPage.png */,
+				C22071171BB872700078A269 /* mapPersonalityPNG.png */,
+				C22071191BB872F80078A269 /* rio.png */,
+				C2126FCD1BB87CC500171FCB /* Cristo.png */,
 				C26EDE9E1BB73EF900E7ABCD /* IntegrateHackathon */,
 				C26EDEB31BB73EF900E7ABCD /* IntegrateHackathonTests */,
 				C26EDEBE1BB73EF900E7ABCD /* IntegrateHackathonUITests */,
+				C2910E881BB7FFF2006D84CB /* IntegrateHackathonWatch */,
+				C2910E971BB7FFF2006D84CB /* IntegrateHackathonWatch Extension */,
 				C26EDE9D1BB73EF900E7ABCD /* Products */,
 				9CBBD1DED8803C828A7CCAB8 /* Pods */,
 				82E63493C249FA36D44DA08E /* Frameworks */,
+				C2E7BB981BB7BC830088D563 /* IntegrateHackathon-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +266,8 @@
 				C26EDE9C1BB73EF900E7ABCD /* IntegrateHackathon.app */,
 				C26EDEB01BB73EF900E7ABCD /* IntegrateHackathonTests.xctest */,
 				C26EDEBB1BB73EF900E7ABCD /* IntegrateHackathonUITests.xctest */,
+				C2910E871BB7FFF2006D84CB /* IntegrateHackathonWatch.app */,
+				C2910E931BB7FFF2006D84CB /* IntegrateHackathonWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,10 +280,19 @@
 				C26EDE9F1BB73EF900E7ABCD /* AppDelegate.swift */,
 				C26EDEA11BB73EF900E7ABCD /* ViewController.swift */,
 				C26EDEA31BB73EF900E7ABCD /* Main.storyboard */,
+				C22071111BB86F2B0078A269 /* LoadingViewController.h */,
+				C22071121BB86F2B0078A269 /* LoadingViewController.m */,
+				C22071141BB86F3A0078A269 /* LoadingViewController2.h */,
+				C22071151BB86F3A0078A269 /* LoadingViewController2.m */,
+				C2910E811BB7FA55006D84CB /* TableViewCell2.swift */,
+				C2910E7D1BB7F28C006D84CB /* UserViewController.swift */,
+				C26249E41BB7CBCC00FF8422 /* TableViewCell.swift */,
+				C26249E01BB7C6AF00FF8422 /* CountriesViewController.swift */,
 				C2E7BB961BB779030088D563 /* BlendsViewController.swift */,
 				C26EDEA61BB73EF900E7ABCD /* Assets.xcassets */,
 				C26EDEA81BB73EF900E7ABCD /* LaunchScreen.storyboard */,
 				C26EDEAB1BB73EF900E7ABCD /* Info.plist */,
+				C22070F41BB864670078A269 /* Configurations.plist */,
 			);
 			path = IntegrateHackathon;
 			sourceTree = "<group>";
@@ -160,6 +315,27 @@
 			path = IntegrateHackathonUITests;
 			sourceTree = "<group>";
 		};
+		C2910E881BB7FFF2006D84CB /* IntegrateHackathonWatch */ = {
+			isa = PBXGroup;
+			children = (
+				C2910E891BB7FFF2006D84CB /* Interface.storyboard */,
+				C2910E8C1BB7FFF2006D84CB /* Assets.xcassets */,
+				C2910E8E1BB7FFF2006D84CB /* Info.plist */,
+			);
+			path = IntegrateHackathonWatch;
+			sourceTree = "<group>";
+		};
+		C2910E971BB7FFF2006D84CB /* IntegrateHackathonWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C2910E981BB7FFF2006D84CB /* InterfaceController.swift */,
+				C2910E9A1BB7FFF2006D84CB /* ExtensionDelegate.swift */,
+				C2910E9C1BB7FFF2006D84CB /* Assets.xcassets */,
+				C2910E9E1BB7FFF2006D84CB /* Info.plist */,
+			);
+			path = "IntegrateHackathonWatch Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,10 +349,12 @@
 				C26EDE9A1BB73EF900E7ABCD /* Resources */,
 				5E7EC73361966864441A398B /* Embed Pods Frameworks */,
 				6E2DE44DB6F5FF36F699A0FA /* Copy Pods Resources */,
+				C2910EA91BB7FFF2006D84CB /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C2910EA01BB7FFF2006D84CB /* PBXTargetDependency */,
 			);
 			name = IntegrateHackathon;
 			productName = IntegrateHackathon;
@@ -219,12 +397,47 @@
 			productReference = C26EDEBB1BB73EF900E7ABCD /* IntegrateHackathonUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C2910E861BB7FFF2006D84CB /* IntegrateHackathonWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2910EA61BB7FFF2006D84CB /* Build configuration list for PBXNativeTarget "IntegrateHackathonWatch" */;
+			buildPhases = (
+				C2910E851BB7FFF2006D84CB /* Resources */,
+				C2910EA51BB7FFF2006D84CB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2910E961BB7FFF2006D84CB /* PBXTargetDependency */,
+			);
+			name = IntegrateHackathonWatch;
+			productName = IntegrateHackathonWatch;
+			productReference = C2910E871BB7FFF2006D84CB /* IntegrateHackathonWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C2910E921BB7FFF2006D84CB /* IntegrateHackathonWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2910EA21BB7FFF2006D84CB /* Build configuration list for PBXNativeTarget "IntegrateHackathonWatch Extension" */;
+			buildPhases = (
+				C2910E8F1BB7FFF2006D84CB /* Sources */,
+				C2910E901BB7FFF2006D84CB /* Frameworks */,
+				C2910E911BB7FFF2006D84CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IntegrateHackathonWatch Extension";
+			productName = "IntegrateHackathonWatch Extension";
+			productReference = C2910E931BB7FFF2006D84CB /* IntegrateHackathonWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C26EDE941BB73EF900E7ABCD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Lucas Farah";
 				TargetAttributes = {
@@ -238,6 +451,13 @@
 					C26EDEBA1BB73EF900E7ABCD = {
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = C26EDE9B1BB73EF900E7ABCD;
+					};
+					C2910E861BB7FFF2006D84CB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C2910E921BB7FFF2006D84CB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 7WB6X64N4P;
 					};
 				};
 			};
@@ -257,6 +477,8 @@
 				C26EDE9B1BB73EF900E7ABCD /* IntegrateHackathon */,
 				C26EDEAF1BB73EF900E7ABCD /* IntegrateHackathonTests */,
 				C26EDEBA1BB73EF900E7ABCD /* IntegrateHackathonUITests */,
+				C2910E861BB7FFF2006D84CB /* IntegrateHackathonWatch */,
+				C2910E921BB7FFF2006D84CB /* IntegrateHackathonWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -266,9 +488,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2910E841BB7FE32006D84CB /* maindesign_960.png in Resources */,
+				C220711A1BB872F80078A269 /* rio.png in Resources */,
 				C26EDECE1BB7458A00E7ABCD /* test.html in Resources */,
+				C22071101BB86EE30078A269 /* loadingPage.png in Resources */,
+				C220710C1BB86CEC0078A269 /* orangeHalfCircle.png in Resources */,
+				C2126FCE1BB87CC500171FCB /* Cristo.png in Resources */,
+				C220710A1BB86BA50078A269 /* personalityButton.png in Resources */,
+				C22071181BB872700078A269 /* mapPersonalityPNG.png in Resources */,
+				C2910E7C1BB7F1BA006D84CB /* main.jpg in Resources */,
+				C2910E801BB7F6BD006D84CB /* people.json in Resources */,
+				C220710E1BB86E7D0078A269 /* blueHalfCircle.png in Resources */,
+				C22071081BB86B9C0078A269 /* mapButton.png in Resources */,
 				C26EDEAA1BB73EF900E7ABCD /* LaunchScreen.storyboard in Resources */,
+				C26249E31BB7C78C00FF8422 /* places.json in Resources */,
+				C22071061BB86B650078A269 /* screen2PNG.png in Resources */,
 				C26EDEA71BB73EF900E7ABCD /* Assets.xcassets in Resources */,
+				C22070F51BB864670078A269 /* Configurations.plist in Resources */,
 				C26EDEA51BB73EF900E7ABCD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +520,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2910E851BB7FFF2006D84CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2910E8D1BB7FFF2006D84CB /* Assets.xcassets in Resources */,
+				C2910E8B1BB7FFF2006D84CB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2910E911BB7FFF2006D84CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2910E9D1BB7FFF2006D84CB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,10 +595,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2910E7E1BB7F28C006D84CB /* UserViewController.swift in Sources */,
 				C2E7BB971BB779030088D563 /* BlendsViewController.swift in Sources */,
+				C26249E11BB7C6AF00FF8422 /* CountriesViewController.swift in Sources */,
+				C22071131BB86F2B0078A269 /* LoadingViewController.m in Sources */,
 				C26EDED01BB7502D00E7ABCD /* ServerHandling.swift in Sources */,
+				C22071031BB8649F0078A269 /* QuickStartUtils.m in Sources */,
+				C22071161BB86F3A0078A269 /* LoadingViewController2.m in Sources */,
+				C26249E51BB7CBCC00FF8422 /* TableViewCell.swift in Sources */,
 				C26EDEA21BB73EF900E7ABCD /* ViewController.swift in Sources */,
+				C22071021BB8649F0078A269 /* MessageTextView.m in Sources */,
+				C22071011BB8649F0078A269 /* MessagesViewController.m in Sources */,
+				C22071041BB8649F0078A269 /* UIColor+QuickStart.m in Sources */,
+				C22071001BB8649F0078A269 /* MessageCell.m in Sources */,
 				C26EDEA01BB73EF900E7ABCD /* AppDelegate.swift in Sources */,
+				C2910E821BB7FA55006D84CB /* TableViewCell2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +629,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C2910E8F1BB7FFF2006D84CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2910E9B1BB7FFF2006D84CB /* ExtensionDelegate.swift in Sources */,
+				C2910E991BB7FFF2006D84CB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -377,6 +650,16 @@
 			isa = PBXTargetDependency;
 			target = C26EDE9B1BB73EF900E7ABCD /* IntegrateHackathon */;
 			targetProxy = C26EDEBC1BB73EF900E7ABCD /* PBXContainerItemProxy */;
+		};
+		C2910E961BB7FFF2006D84CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2910E921BB7FFF2006D84CB /* IntegrateHackathonWatch Extension */;
+			targetProxy = C2910E951BB7FFF2006D84CB /* PBXContainerItemProxy */;
+		};
+		C2910EA01BB7FFF2006D84CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2910E861BB7FFF2006D84CB /* IntegrateHackathonWatch */;
+			targetProxy = C2910E9F1BB7FFF2006D84CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,6 +678,14 @@
 				C26EDEA91BB73EF900E7ABCD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C2910E891BB7FFF2006D84CB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2910E8A1BB7FFF2006D84CB /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -486,10 +777,13 @@
 			baseConfigurationReference = E58C8AC00F0874BD5D91BF76 /* Pods-IntegrateHackathon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IntegrateHackathon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.IntegrateHackathon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IntegrateHackathon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -498,10 +792,12 @@
 			baseConfigurationReference = 995D31C28A6A573C3376C03A /* Pods-IntegrateHackathon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IntegrateHackathon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.IntegrateHackathon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IntegrateHackathon-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -553,6 +849,68 @@
 			};
 			name = Release;
 		};
+		C2910EA31BB7FFF2006D84CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "IntegrateHackathonWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.IntegrateHackathon.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C2910EA41BB7FFF2006D84CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "IntegrateHackathonWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.IntegrateHackathon.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		C2910EA71BB7FFF2006D84CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = IntegrateHackathonWatch_Extension;
+				INFOPLIST_FILE = IntegrateHackathonWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.IntegrateHackathon.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C2910EA81BB7FFF2006D84CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = IntegrateHackathonWatch_Extension;
+				INFOPLIST_FILE = IntegrateHackathonWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.IntegrateHackathon.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,6 +946,24 @@
 			buildConfigurations = (
 				C26EDECB1BB73EF900E7ABCD /* Debug */,
 				C26EDECC1BB73EF900E7ABCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2910EA21BB7FFF2006D84CB /* Build configuration list for PBXNativeTarget "IntegrateHackathonWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2910EA31BB7FFF2006D84CB /* Debug */,
+				C2910EA41BB7FFF2006D84CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2910EA61BB7FFF2006D84CB /* Build configuration list for PBXNativeTarget "IntegrateHackathonWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2910EA71BB7FFF2006D84CB /* Debug */,
+				C2910EA81BB7FFF2006D84CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

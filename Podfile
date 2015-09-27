@@ -7,6 +7,10 @@ target 'IntegrateHackathon' do
   use_frameworks!
   
   pod 'Alamofire', '~> 2.0'
+  
+  pod 'MMX'
+  pod 'SlackTextViewController', '1.5.2', :inhibit_warnings => true
+
 end
 
 target 'IntegrateHackathonTests' do

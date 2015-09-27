@@ -1,0 +1,156 @@
+ [
+  {
+  "City": "London",
+  "description": "London is a world unto itself. The eclectic neighborhoods — which house a blend of historical landmarks and modern-day attractions — can keep you occupied for days. Visit the Tower of London and the British Museum or explore Portobello Road and Borough Market.",
+  "Lat": 51.507351,
+  "Long": -0.127758,
+  "": "http://static.travel.usnews.com/images/destinations/82/5176353912_65f05422f7_445x280.jpg"
+  },
+  {
+  "City": "Bora Bora",
+  "description": "It's hard not to be enchanted by this paradisiacal destination: Lush jungles extend into sky high volcanoes and sands stretch into upscale resorts. When you're not relaxing on the beach, carve out some time for hiking Mount Otemanu or observing aquatic life at the Bora Bora Lagoonarium.",
+  "Lat": -16.500413,
+  "Long": -151.74149,
+  "": "http://static.travel.usnews.com/images/destinations/289/bora_bora_main-2015.jpg"
+  },
+  {
+  "City": "Barcelona",
+  "description": "Though known for its fútbol team, Barcelona boasts much more than athletic talent. The city is a feast for the eyes: Visitors walk past medieval architecture in the Barri Gòtic and Gaudi's innovative creations at Parc Güell. Meanwhile, Las Ramblas buzzes at all hours.",
+  "Lat": 41.385064,
+  "Long": 2.173403,
+  "": "http://static.travel.usnews.com/images/destinations/97/main_uncropped_5-2013.jpg"
+  },
+  {
+  "City": "Paris",
+  "description": "Year after year, the magnetic City of Light draws travelers looking to cross the Eiffel Tower and Notre Dame off their bucket lists. But what visitors really fall in love with are Paris' quaint cafes, vibrant markets, trendy shopping districts and unmistakable je ne sais quoi charm.",
+  "Lat": 48.856614,
+  "Long": 2.352222,
+  "": "http://static.travel.usnews.com/images/destinations/86/paris_edited.jpg"
+  },
+  {
+  "City": "Sydney",
+  "description": "This metropolis offers more than just a dizzying array of landmarks (e.g., the Opera House and the Sydney Harbour Bridge). Sydney boasts a warm, sunny climate ideal for enjoying the city's beaches. The sands at Coogee and Bondi draw locals and tourists alike",
+  "Lat": -33.867487,
+  "Long": 151.20699,
+  "": "http://static.travel.usnews.com/images/destinations/290/ferry_on_sydney_harbour.jpg"
+  },
+  {
+  "City": "New York City",
+  "description": "New York City hosts infinite urban adventures: Wander through Central Park, tour the exhibits at the Met, catch a Broadway show or peruse SoHo's stylish boutiques. And at night, admire Manhattan's glittering skyscrapers from the top of the Empire State Building",
+  "Lat": 40.712784,
+  "Long": -74.005941,
+  "": "http://static.travel.usnews.com/images/destinations/44/main_image_september_2013.jpg"
+  },
+  {
+  "City": "Maui",
+  "description": "Maui — one of the most beloved of all the Hawaiian Islands — lives up to its superlatives with exotic beaches (like Kaihalulu), palatial resorts (like the Four Seasons Resort Maui at Wailea) and lush terrain (as seen in the Iao Valley State Park).",
+  "Lat": 20.798363,
+  "Long": -156.331925,
+  "": "http://static.travel.usnews.com/images/destinations/61/main_2014.jpg"
+  },
+  {
+  "City": "Rio de Janeiro",
+  "description": "As the upcoming host of the 2016 Olympic Games, Rio is arguably South America's hottest destination — and not just for its warm weather. The famous Christ the Redeemer statue presides over Copacabana Beach. And you'll be hard-pressed to find a livelier event than Rio's Carnival.",
+  "Lat": -22.906847,
+  "Long": -43.172896,
+  "": "http://static.travel.usnews.com/images/destinations/315/main.jpg"
+  },
+  {
+  "City": "Cape Town",
+  "description": "This South African city appeals to adventure seekers and mellow travelers alike. Kick-start your day by climbing Table Mountain. Afterward, sunbathe along Clifton Beach's khaki-colored sands or tour the vineyards of the Constantia Valley",
+  "Lat": -33.924869,
+  "Long": 18.424055,
+  "": "http://static.travel.usnews.com/images/destinations/310/ascending_table_mountain.jpg"
+  },
+  {
+  "City": "San Francisco",
+  "description": "Gourmet restaurants, funky boutiques and laid-back vibes are just some of San Fran's charms. A ride on the cable cars and a visit to Alcatraz are musts. And, of course, don't forget to visit the city's crowning architectural achievement — the Golden Gate Bridge.",
+  "Lat": 37.774929,
+  "Long": -122.419416,
+  "": "http://static.travel.usnews.com/images/destinations/20/golden_gate1.jpg"
+  },
+  {
+  "City": "Maldives",
+  "description": "The simple mention of the Maldives conjures images of blue waters and soft sands. This collection of more than 1,000 islands boasts unparalleled resorts and pristine beaches. Visitors say the islands' allures are difficult to comprehend unless you see them for yourself.",
+  "Lat": 1.977247,
+  "Long": 73.536103,
+  "": "http://static.travel.usnews.com/images/destinations/280/prime_real_estate.jpg"
+  },
+  {
+  "City": "Prague",
+  "description": "Prague has transitioned from a backpacker secret to a flourishing Eastern European capital. The narrow streets lead to iconic landmarks such as the Charles Bridge and St. Vitus Cathedral. Save some time for enjoying local pilsners on a bar crawl",
+  "Lat": 50.075538,
+  "Long": 14.4378,
+  "": "http://static.travel.usnews.com/images/destinations/103/prague_main.jpg"
+  },
+  {
+  "City": "Yellowstone",
+  "description": "More than 3,000 square miles of nature's finest canyons, geysers and rocky cliffs are an easy sell for outdoors enthusiasts. Geothermic wonders like the Mammoth Hot Springs, Old Faithful and Yellowstone Lake are not to be missed at this national park.",
+  "Lat": 44.427963,
+  "Long": -110.588455,
+  "": "http://static.travel.usnews.com/images/destinations/7/bison_crowding_along_firehole_river.jpg"
+  },
+  {
+  "City": "Bahamas",
+  "description": "The Bahamas comprises so many islands that it's hard to mash them all into one recommendation. But that's also part of their appeal. Airfare and hotel rates are reasonable throughout the year, but you'll get the best deals if you visit in the summer or early fall.",
+  "Lat": 25.03428,
+  "Long": -77.39628,
+  "": "http://static.travel.usnews.com/images/destinations/75/nassau_beach_fotodawg_flickr.jpg"
+  },
+  {
+  "City": "Vancouver",
+  "description": "Vancouver may not be as grand as Toronto or as historic as Montreal, but it's no mystery why this Canadian city regularly hosts international sporting events. The city bursts with parks, galleries and outdoor activities.",
+  "Lat": 45.638728,
+  "Long": -122.661486,
+  "": "http://static.travel.usnews.com/images/destinations/12/waterfront.jpg"
+  },
+  {
+  "City": "Washington D.C.",
+  "description": "One of the most-visited cities in the U.S., our nation's capital houses a trove of iconic monuments. Exploring the White House, the Lincoln Memorial and the Smithsonian Museums can fill several days. And the best part is: Everything's free to visit.",
+  "Lat": 38.907192,
+  "Long": -77.036871,
+  "": "http://static.travel.usnews.com/images/destinations/48/main_image_031414.jpg"
+  },
+  {
+  "City": "U.S. Virgin Islands",
+  "description": "A visit to the USVI will feel like an international vacation (Carnival and reggae music) with a taste of home (U.S. dollars and no language barrier). But you won't find beaches like this on the mainland. For the best rates and weather, visit in late spring.",
+  "Lat": 18.335765,
+  "Long": -64.896335,
+  "": "http://static.travel.usnews.com/images/destinations/84/st_thomas_cruise_harbor.jpg"
+  },
+  {
+  "City": "Zurich",
+  "description": "From swimming in Lake Zurich in the summer to skiing the Alps in the winter, Zurich attracts visitors year-round. Delectable pastry shops abound, as do museums, churches and shops in Bahnhofstrasse. At night, check out the bars in edgy Zurich West.",
+  "Lat": 47.376887,
+  "Long": 8.541694,
+  "": "http://static.travel.usnews.com/images/destinations/83/zurich_lights.jpg"
+  },
+  {
+  "City": "Budapest",
+  "description": "Budapest is a sure standout for any trip to Eastern Europe. The city caters to a wide range of traveler types and budgets with its variety of hotels and restaurants. The city will keep you occupied with its thermal baths and world-class museums.",
+  "Lat": 47.497912,
+  "Long": 19.040235,
+  "": "http://static.travel.usnews.com/images/destinations/81/new_budapest_main_image_-_revamp_cropped.jpg"
+  },
+  {
+  "City": "Las Vegas",
+  "description": "America's Playground offers plenty of entertainment day or night. Neon-lit casinos, like the Bellagio and Caesar's Palace, beckon to travelers with fascinating shows and sprawling game floors. Plus, these mega-resorts boast spas, pools, upscale rooms and diverse restaurants.",
+  "Lat": 36.169941,
+  "Long": -115.13983,
+  "": "http://static.travel.usnews.com/images/destinations/17/dusk_on_the_strip.jpg"
+  },
+  {
+  "City": "Jerusalem",
+  "description": "Many travelers seek out Jerusalem for its ancient ties to Judaism, Christianity and Islam. Pack your visit to the city with stops at religious and historic sites, such as the Western Wall, Temple Mount and the Church of the Holy Sepulchre.",
+  "Lat": 31.768319,
+  "Long": 35.21371,
+  "": "http://static.travel.usnews.com/images/destinations/306/sunset_over_jerusalem.jpg"
+  },
+  {
+  "City": "Playa del Carmen",
+  "description": "Meander along cobbled streets and admire historic sites like El Morro in Old San Juan. Prefer miles of sand? Consider the bioluminescent bays of Culebra and Vieques. For a vibrant night scene, visit the Isla Verde or Santurce neighborhoods of San Juan.",
+  "Lat": 20.629559,
+  "Long": -87.073885,
+  "": "http://static.travel.usnews.com/images/destinations/53/main_image.jpg"
+  }
+  ]

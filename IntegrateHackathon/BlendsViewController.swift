@@ -23,14 +23,31 @@ class BlendsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+      navigationController?.setNavigationBarHidden(navigationController?.navigationBarHidden == false, animated: true) //or animated: false
+
       
+
+
       self.server()
+      
     }
+  
+  override func prefersStatusBarHidden() -> Bool {
+    return navigationController?.navigationBarHidden == true
+  }
+  
+  override func preferredStatusBarUpdateAnimation() -> UIStatusBarAnimation {
+    return UIStatusBarAnimation.Fade
+  }
+  
   func server()
   {
     
     Alamofire.request(.GET, "http://travelwithus.eu-gb.mybluemix.net/index/3da8a74f-9a7d-42a8-9386-d815903aa450")
       .response { request, response, data, error in
+        
+        let sds = NSString(data: data!, encoding: NSUTF8StringEncoding)
+        print(sds)
         do
         {
           let jsonResult = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as! NSDictionary
@@ -45,15 +62,17 @@ class BlendsViewController: UIViewController {
           let image2 = badge2["image_medium"] as! String
           
           self.txt1.text = blend["description"] as! String
-          self.txtTitle1.text = blend["name"] as? String
-          
+          if let str = blend["name"] as? String
+          {
+          self.txtTitle1.text = "You are \(str)"
+          }
           self.imgv1.image = UIImage(data: NSData(contentsOfURL: NSURL(string: image1)!)!)
           self.imgv2.image = UIImage(data: NSData(contentsOfURL: NSURL(string: image2)!)!)
 
         }
         catch
         {
-          
+          print(error)
         }
     }
   }
